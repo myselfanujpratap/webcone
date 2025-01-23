@@ -1,11 +1,10 @@
-
 services:
-  seaweb:
-    image:nginx
+  webcone:
+    image: nginx
     container_name: webcone
     ports:
       - 80:80
     volumes:
-      - $(pwd):/etc/nginx/website/
+      - ./:/etc/nginx/website/
       - ./nginx.conf:/etc/nginx/nginx.conf
     restart: always
