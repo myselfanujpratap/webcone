@@ -1,5 +1,7 @@
 
-![Screenshot 2025-01-24 at 11 49 07 PM](https://github.com/user-attachments/assets/ef2256ac-fa8b-4793-8a70-13a6ac429ca5)
+![WhatsApp Image 2025-01-25 at 00 16 48_c521e9a5](https://github.com/user-attachments/assets/f543d493-911b-4d3a-9070-c9afe5d4f336)
+
+
 
 ## About 
 Webcone is a dockerised service for hosting files onto the web with ease and minimal configuration 
@@ -12,7 +14,7 @@ Webcone is a dockerised service for hosting files onto the web with ease and min
 
 
 ## Working 
-![Screenshot 2025-01-24 at 12 15 44 AM](https://github.com/user-attachments/assets/77d943cc-93b4-4456-8608-f860a0d3d669)
+![WhatsApp Image 2025-01-25 at 00 16 47_b7e036e2](https://github.com/user-attachments/assets/5b1f71d8-bc1c-45a0-a6b2-628b718de6e7)
 
 The setup has been implemented using docker compose init the ports are configured to 80 (default port for the nginx) , all the files inside the repo are mounted accordingy including nginx.conf file at location /etc/nginx/nginx.conf in the nginx container and other website content mounted at /etc/nginx/website/* when compose setup is run traffic from client -> host is redirected to docker container which serves the request (files which are mounted) on the same way passing from container to host to client.    
 
